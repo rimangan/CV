@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  10 DEC 2021 14:50
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  5 FEB 2022 09:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -702,8 +702,13 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 [2]
-./CV.tex:380: Undefined control sequence.
-l.380 ...ood and tissue sample processing. \itemit
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 382.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 382.
+
+./CV.tex:387: Undefined control sequence.
+l.387 ...ood and tissue sample processing. \itemit
                                                   {C. elegans} colony mainte...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -712,58 +717,54 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--381
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
 
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 381--384
+Underfull \hbox (badness 1546) in paragraph at lines 389--393
 \TU/Tinos-Regular.ttf(0)/m/n/10 Western blotting, immunoprecipitation, histolog
 y, flow cytometry, ELISA, cell culture, plasmid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
+Underfull \hbox (badness 10000) in paragraph at lines 389--393
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 386.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 386.
 
-./CV.tex:749: LaTeX Error: \begin{list} on input line 75 ended by \end{Body}.
+./CV.tex:754: LaTeX Error: \begin{list} on input line 75 ended by \end{Body}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.749 \end{Body}
+l.754 \end{Body}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./CV.tex:759: LaTeX Error: \begin{Body} on input line 75 ended by \end{document
+./CV.tex:764: LaTeX Error: \begin{Body} on input line 75 ended by \end{document
 }.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.759 \end{document}
+l.764 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 759.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 764.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 759.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 764.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 759.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 759.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 764.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 764.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 88735211B636E52CDB10D55B24372383.
 
@@ -771,7 +772,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 759.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 764.
  )
 (\end occurred inside a group at level 1)
 
@@ -780,7 +781,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 759.
 Here is how much of TeX's memory you used:
  26017 strings out of 492916
  497873 string characters out of 6133346
- 575856 words of memory out of 5000000
+ 575853 words of memory out of 5000000
  29927 multiletter control sequences out of 15000+600000
  534761 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
